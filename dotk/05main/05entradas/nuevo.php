@@ -1,0 +1,191 @@
+<div class="container-fluid">
+
+  <h1>Noticias y avisos de la comunidad UPP</h1>
+  <br />
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <h2>Publicaciones UPP</h2>
+      <p>
+        <a href="http://upp.edu.mx/rfront/">http://upp.edu.mx/rfront/</a>
+      </p>
+
+      <?php
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+          CURLOPT_URL            => 'http://www.upp.edu.mx/rfront/?feed=rss2',
+          CURLOPT_USERAGENT      => 'spider',
+          CURLOPT_TIMEOUT        => 120,
+          CURLOPT_CONNECTTIMEOUT => 30,
+          CURLOPT_RETURNTRANSFER => true,
+          CURLOPT_ENCODING       => 'UTF-8'
+        ));
+        $data = curl_exec($curl);
+        curl_close($curl);
+        $xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+        $i=0;
+        foreach ($xml->channel->item as $item) {
+            if ($i < 5) {
+                $creator = $item->children('dc', true);
+                echo "<br />";
+                echo '<hr />';
+                echo "<h3>".$item->title."</h3>";
+                $temporal = explode(" ",$item->pubDate);
+                echo '<p>Publicado el: '.$temporal[1].' '.$temporal[2].'</p>';
+                echo "<p>".$item->description."</p>";
+                //echo "<p>Categoría: ".$item->category."</p>";
+
+                switch ($item->category) {
+                  case "Convocatorias":
+                    echo "
+                             <a href=\"".$item->link."\" class=\"btn btn-warning\">
+                               + información
+                             </a>
+                         ";
+                    break;
+
+                    case "Becas":
+                      echo "
+                             <a href=\"".$item->link."\" class=\"btn btn-success\">
+                               + información
+                             </a>
+                           ";
+                      break;
+
+                      case "Noticias Académicas":
+                        echo "
+                               <a href=\"".$item->link."\" class=\"btn btn-info\">
+                                 + información
+                               </a>
+                             ";
+                        break;
+
+                        case "Varios":
+                          echo "
+                                 <a href=\"".$item->link."\" class=\"btn btn-dark\">
+                                   + información
+                                 </a>
+                               ";
+                          break;
+
+                  default:
+                    echo "
+                           <a href=\"".$item->link."\" class=\"btn btn-default\">
+                             + información
+                           </a>
+                         ";
+                    break;
+                }
+                $i++;
+            }
+        }
+
+      ?>
+    </div>
+
+    <div class="col-md-4">
+      <h2>Servicios escolares</h2>
+      <p>
+        <a href="http://upp.edu.mx/serviciosescolares">
+          http://upp.edu.mx/serviciosescolares
+        </a>
+      </p>
+
+      <?php
+
+      $curl = curl_init();
+      curl_setopt_array($curl, array(
+          CURLOPT_URL            => 'http://www.upp.edu.mx/serviciosescolares/?feed=rss2',
+          CURLOPT_USERAGENT      => 'spider',
+          CURLOPT_TIMEOUT        => 120,
+          CURLOPT_CONNECTTIMEOUT => 30,
+          CURLOPT_RETURNTRANSFER => true,
+          CURLOPT_ENCODING       => 'UTF-8'
+      ));
+      $data = curl_exec($curl);
+      curl_close($curl);
+      $xml = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+      //die('<pre>' . print_r($xml], TRUE) . '</pre>');
+
+        $i=0;
+        foreach ($xml->channel->item as $item) {
+            if ($i < 5) {
+                $creator = $item->children('dc', true);
+                echo '<br />';
+                echo '<hr />';
+                echo '<h3>' . $item->title . '</h3>';
+                //echo '<p>Publicado el: ' . $item->pubDate . '</p>';
+                $temporal = explode(" ",$item->pubDate);
+                echo '<p>Publicado el: '.$temporal[1].' '.$temporal[2].'</p>';
+                //echo "xxx:".$temporal[1];
+                //echo '<p>Author: ' . $creator . '</p>';
+                echo '<p>' . $item->description . '</p>';
+                //echo '<p><a href="' . $item->link . '">Leer más: ' . $item->title . '</a></p>';
+                echo "
+                       <a href=\"".$item->link."\" class=\"btn btn-primary\">
+                         + información
+                       </a>
+                     ";
+                $i++;
+            }
+            //echo $i;
+        }
+
+      ?>
+    </div>
+
+    <div class="col-md-4">
+      <h2>Recomendaciones</h2>
+      <!--
+      <button type="button" class="btn btn-uppachuca btn-lg">Recomendaciones</button>
+    -->
+
+      <br />
+      <hr />
+
+      <h3>Programas de calidad</h3>
+      <a href="http://www.pnpec.sep.gob.mx/">
+        <img src="http://www.upp.edu.mx/rfront/wp-content/uploads/2018/10/programas_calida_animado.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO" />
+      </a>
+
+      <hr />
+      <h3>Revista INMENIO</h3>
+      <a href="https://issuu.com/inmenio/docs/inmenio_12_2">
+        <img src="./images/revistas/INMENIO-2019-febrero.jpg" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO" />
+      </a>
+
+      <hr />
+      <h3>SIMCI</h3>
+      <a href="http://www.upp.edu.mx/simci">
+        <!--<img src="./images/revistas/mini-simci.jpg" class="featurette-image img-responsive img-thumbnail" alt="Revista SIMCI" />-->
+        Visitar sitio
+      </a>
+
+      <hr />
+      <h3>Encuesta desempeño docente</h3>
+      <a href="https://sii.upp.edu.mx">
+        <img src="http://www.upp.edu.mx/rfront/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-20-at-3.00.57-PM.jpeg" class="featurette-image img-responsive img-thumbnail" alt="Encuesta desempeño docente" />
+      </a>
+
+
+      <hr />
+      <h3>Resultados</h3>
+      <a href="http://www.upp.edu.mx/3esp/index.php/institución/evaluación_PID.pdf">
+        <img src="./images/revistas/boton-pid.gif" class="featurette-image img-responsive img-thumbnail" alt="PID" />
+      </a>
+
+
+            <hr />
+            <h3>MECASUP 2018</h3>
+            <ul>
+              <li><a href="./mc/mecasub/PRONTUARIO_MECASUP_2018.pdf">Prontuario MECASUP</a></li>
+              <li><a href="./mc/mecasub/TABLAS_MECASUP_2017_2018.xlsx">Tablas MECASUP</a></li>
+            </ul>
+
+
+
+
+    </div>
+  </div> <!--fin de ROW -->
+</div> <!-- fin de container -->
