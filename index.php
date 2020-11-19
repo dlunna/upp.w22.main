@@ -30,18 +30,19 @@
 
     <div class="container marketing">
 
-      <a href="https://www.upp.edu.mx/serviciosescolares/">
-        <img src="https://www.upp.edu.mx/rfront/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-16-at-12.59.25.jpeg" class="img-fluid rounded" alt="Responsive image" alt="upp">
+<!--
+      <a href="https://www.upp.edu.mx/rfront/?p=4872">
+        <img src="https://www.upp.edu.mx/rfront/wp-content/uploads/2020/06/banner-CSWA-FEA-1024x534.png" class="img-fluid rounded" alt="Responsive image" alt="upp">
       </a>
       <br>
       <br>
-
+-->
       <a id="marketing"></a>
       <hr>
       <?php include('./dotk/05main/01iconos/marketing.html'); ?>
       <br>
 
-      <a id="aspirantes"></a>      
+      <a id="aspirantes"></a>
       <hr class="featurette-divider">
       <?php include('./dotk/05main/03comunidad/aspirantes.html'); ?>
 

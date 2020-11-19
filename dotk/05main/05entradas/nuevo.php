@@ -146,33 +146,39 @@
 
       <h3>Programas de calidad</h3>
       <a href="http://www.pnpec.sep.gob.mx/">
-        <img src="http://www.upp.edu.mx/rfront/wp-content/uploads/2018/10/programas_calida_animado.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO" />
+        <!--<img src="http://www.upp.edu.mx/rfront/wp-content/uploads/2018/10/programas_calida_animado.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO" />-->
+        <p style="font-size:30px">Visitar PNPC</p>
       </a>
 
       <hr />
       <h3>Revista INMENIO</h3>
       <a href="https://issuu.com/inmenio/docs/inmenio_12_2">
-        <img src="./images/revistas/INMENIO-2019-febrero.jpg" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO" />
+        <p style="font-size:30px">Visitar publicación</p>
+        <!--<img src="./images/revistas/INMENIO-2019-febrero.jpg" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO" />-->
       </a>
 
       <hr />
       <h3>SIMCI</h3>
       <a href="http://www.upp.edu.mx/simci">
-        <!--<img src="./images/revistas/mini-simci.jpg" class="featurette-image img-responsive img-thumbnail" alt="Revista SIMCI" />-->
-        Visitar sitio
+        <img src="./images/revistas/mini-simci.jpg" class="featurette-image img-responsive img-thumbnail" alt="Revista SIMCI" />
+        <p style="font-size:30px">Visitar sitio</p>
       </a>
 
       <hr />
       <h3>Encuesta desempeño docente</h3>
       <a href="https://sii.upp.edu.mx">
-        <img src="http://www.upp.edu.mx/rfront/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-20-at-3.00.57-PM.jpeg" class="featurette-image img-responsive img-thumbnail" alt="Encuesta desempeño docente" />
+        <p style="font-size:30px">Ir a la encuesta</p>
+        <img src="./images/revistas/encuesta_desempenno_docente_20-21.jpg" class="featurette-image img-responsive img-thumbnail" alt="Encuesta desempeño docente" />
+        <!--<img src="http://www.upp.edu.mx/rfront/wp-content/uploads/2020/07/banner_encuesta_desempeno_docente.png" class="featurette-image img-responsive img-thumbnail" alt="Encuesta desempeño docente" />-->
+        <!--<img src="http://www.upp.edu.mx/rfront/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-20-at-3.00.57-PM.jpeg" class="featurette-image img-responsive img-thumbnail" alt="Encuesta desempeño docente" />-->
       </a>
 
 
       <hr />
       <h3>Resultados</h3>
       <a href="http://www.upp.edu.mx/3esp/index.php/institución/evaluación_PID.pdf">
-        <img src="./images/revistas/boton-pid.gif" class="featurette-image img-responsive img-thumbnail" alt="PID" />
+        <p style="font-size:30px">Resultados PID 2017 - 2022</p>
+        <!--<img src="./images/revistas/boton-pid.gif" class="featurette-image img-responsive img-thumbnail" alt="PID" />-->
       </a>
 
 

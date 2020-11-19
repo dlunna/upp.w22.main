@@ -16,22 +16,26 @@
 
             <!-- UNO -->
               <a href="http://search.ebscohost.com">
-                <img src="./images/ligas/ebsco.jpg" alt="ebsco search" class="img-thumbnail" >
+                <p>- EBSCO - </p>
+                <!--<img src="./images/ligas/ebsco.jpg" alt="ebsco search" class="img-thumbnail" >-->
               </a>
             <!-- DOS -->
 
               <a href="http://www.upp.edu.mx/contraloriasocial/">
-                <img src="./images/ligas/contraloria-social.jpg" alt="Contraloria social" class="img-thumbnail">
+                <p>- Contraloría social - </p>
+                <!--<img src="./images/ligas/contraloria-social.jpg" alt="Contraloria social" class="img-thumbnail">-->
               </a>
             <!-- TRES -->
 
               <a href="https://www.gob.mx/imjuve">
-                <img src="./images/ligas/imjuve.jpg" alt="tres" class="img-thumbnail">
+                <p>- IMJUVE - </p>
+                <!--<img src="./images/ligas/imjuve.jpg" alt="tres" class="img-thumbnail">-->
               </a>
             <!-- CUATRO -->
 
               <a href="http://www.inegi.org.mx/default.aspx">
-                <img src="./images/ligas/inegi.jpg" alt="cuatro" class="img-thumbnail">
+                <p>- INEGI - </p>
+                <!-- <img src="./images/ligas/inegi.jpg" alt="cuatro" class="img-thumbnail">-->
               </a>
           </div> <!-- fin primer bloque de 4 -->
         </div>  <!-- fin primer bloque de 4 -->
@@ -42,24 +46,35 @@
         <div class="carousel-item">
           <div class="row justify-content-md-center">
 
-                  <a href="http://www.upp.edu.mx/3esp/index.php?option=com_content&view=article&id=2&Itemid=131">
-                    <img src="./images/ligas/fondosextraordinarios.jpg" alt="fondos extraordinarios" class="img-thumbnail">
+                  <a href="http://www.upp.edu.mx/fondosextraordinarios/">
+                    <p>- Fondos extraordinarios - </p>
+                    <!-- <img src="./images/ligas/fondosextraordinarios.jpg" alt="fondos extraordinarios" class="img-thumbnail">-->
                   </a>
 
                   <a href="http://www.unlugarparati.mx">
-                    <img src="./images/ligas/un-lugar-para-ti.jpg" alt="Un lugar para ti" class="img-thumbnail">
+                    <p>- Un lugar - </p>
+                    <!-- <img src="./images/ligas/un-lugar-para-ti.jpg" alt="Un lugar para ti" class="img-thumbnail"> -->
                   </a>
 
                   <a href="http://s-contraloria.hidalgo.gob.mx/descargables/CODIGO-3.pdf">
+                    <p>- Código de Ética - </p>
+                    <!--
                     <img src="./images/ligas/etica.jpg" alt="Cuadernillo de etica" class="img-thumbnail">
+                  -->
                   </a>
 
                   <a href="http://www.bibliotecaecest.mx">
+                    <p>- ECEST - </p>
+                    <!--
                     <img src="./images/ligas/ecest.jpg" alt="ocho" class="img-thumbnail">
+                  -->
                   </a>
 
                   <a href="http://ihfes.hidalgo.gob.mx/">
+                    <p>- IHFES - </p>
+                    <!--
                     <img src="./images/ligas/ihfes.jpg" alt="nueve" class="img-thumbnail">
+                  -->
                   </a>
 
 
