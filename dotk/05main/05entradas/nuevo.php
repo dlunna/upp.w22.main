@@ -154,13 +154,13 @@
       <h3>Revista INMENIO</h3>
       <a href="https://issuu.com/inmenio/docs/inmenio_12_2">
         <p style="font-size:30px">Visitar publicación</p>
-        <img src="./images/revistas/INMENIO-2019-febrero.jpg" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO" />
+        <img src="./images/revistas/Gif-INMENIO.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO" />
       </a>
 
       <hr />
       <h3>SIMCI</h3>
       <a href="http://www.upp.edu.mx/simci">
-        <img src="./images/revistas/mini-simci.jpg" class="featurette-image img-responsive img-thumbnail" alt="Revista SIMCI" />
+        <img src="./images/revistas/SIMCI.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista SIMCI" />
         <p style="font-size:30px">Visitar sitio</p>
       </a>
 
