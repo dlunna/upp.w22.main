@@ -60,7 +60,7 @@
       <?php include('./dotk/05main/05entradas/nuevo.php'); ?>
 
       <hr class="featurette-divider">
-      <?php include('./dotk/05main/07ligasdint/iconosfooter.php'); ?>
+      <?php include('./dotk/05main/07ligasdint/iconosfooter.html'); ?>
 
     </div>
 
