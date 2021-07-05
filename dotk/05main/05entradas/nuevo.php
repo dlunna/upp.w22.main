@@ -179,15 +179,8 @@
         <!--<img src="./images/revistas/boton-pid.gif" class="featurette-image img-responsive img-thumbnail" alt="PID" />-->
       </a>
 
-
             <hr />
-            <h3>MECASUP 2018</h3>
-            <ul>
-              <li><a href="./mc/mecasub/PRONTUARIO_MECASUP_2018.pdf">Prontuario MECASUP</a></li>
-              <li><a href="./mc/mecasub/TABLAS_MECASUP_2017_2018.xlsx">Tablas MECASUP</a></li>
-            </ul>
-
-
+            <h3><a href="../mecasup/">MECASUP</a></h3>
 
 
     </div>
