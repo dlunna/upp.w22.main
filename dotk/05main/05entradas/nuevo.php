@@ -179,8 +179,8 @@
         <!--<img src="./images/revistas/boton-pid.gif" class="featurette-image img-responsive img-thumbnail" alt="PID" />-->
       </a>
 
-            <hr />
-            <h3><a href="../mecasup/">MECASUP</a></h3>
+      <hr />
+      <h3><a href="../mecasup/">Prontuario MECASUP</a></h3>
 
 
     </div>
