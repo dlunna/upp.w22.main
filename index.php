@@ -30,13 +30,16 @@
 
     <div class="container marketing">
 
+      <!--
+
       <br>
-      <a href="http://www.upp.edu.mx/resultados/">
-        <!--<img src="https://www.upp.edu.mx/rfront/wp-content/uploads/2020/06/banner-CSWA-FEA-1024x534.png" class="img-fluid rounded" alt="Responsive image" alt="upp">-->
-        <p style="font-size:50px;">LISTAS DE ASPIRANTES ACEPTADOS/AS PARA INGRESAR EN EL PERIODO ESCOLAR SEPTIEMBRE - DICIEMBRE 2021</p>
+      <a href="#">
+        <img src="#" class="img-fluid rounded" alt="Responsive image" alt="upp">
+        <p style="font-size:50px;">Lorem</p>
       </a>
       <br>
       <br>
+    -->
 
       <a id="marketing"></a>
       <hr>
