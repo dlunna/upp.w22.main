@@ -8,13 +8,13 @@
     <div class="col-md-4">
       <h2>Publicaciones UPP</h2>
       <p>
-        <a href="http://upp.edu.mx/rfront/">http://upp.edu.mx/rfront/</a>
+        <a href="https://upp.edu.mx/rfront/">https://upp.edu.mx/rfront/</a>
       </p>
 
       <?php
         $curl = curl_init();
         curl_setopt_array($curl, array(
-          CURLOPT_URL            => 'http://www.upp.edu.mx/rfront/?feed=rss2',
+          CURLOPT_URL            => 'https://www.upp.edu.mx/rfront/?feed=rss2',
           CURLOPT_USERAGENT      => 'spider',
           CURLOPT_TIMEOUT        => 120,
           CURLOPT_CONNECTTIMEOUT => 30,
@@ -87,8 +87,8 @@
     <div class="col-md-4">
       <h2>Servicios escolares</h2>
       <p>
-        <a href="http://upp.edu.mx/serviciosescolares">
-          http://upp.edu.mx/serviciosescolares
+        <a href="https://upp.edu.mx/serviciosescolares">
+          https://upp.edu.mx/serviciosescolares
         </a>
       </p>
 
@@ -96,7 +96,7 @@
 
       $curl = curl_init();
       curl_setopt_array($curl, array(
-          CURLOPT_URL            => 'http://www.upp.edu.mx/serviciosescolares/?feed=rss2',
+          CURLOPT_URL            => 'https://www.upp.edu.mx/serviciosescolares/?feed=rss2',
           CURLOPT_USERAGENT      => 'spider',
           CURLOPT_TIMEOUT        => 120,
           CURLOPT_CONNECTTIMEOUT => 30,
@@ -159,7 +159,7 @@
 
       <hr />
       <h3>SIMCI</h3>
-      <a href="http://www.upp.edu.mx/simci">
+      <a href="https://www.upp.edu.mx/simci">
         <img src="./images/revistas/SIMCI.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista SIMCI" />
         <p style="font-size:30px">Visitar sitio</p>
       </a>
