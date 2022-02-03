@@ -64,7 +64,14 @@
       <?php include('./dotk/05main/05entradas/nuevo.php'); ?>
 
       <hr class="featurette-divider">
-      <?php include('./dotk/05main/07ligasdint/iconosfooter.html'); ?>
+      <?php
+        if ($vedae == 0) {
+          include('./dotk/05main/07ligasdint/iconosfooter.html');
+        } else {
+          include('./dotk/05main/07ligasdint/iconosfooter_veda.html');
+        }
+
+?>
 
     </div>
 

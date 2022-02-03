@@ -14,14 +14,26 @@
 
   <div class="carousel-inner">
 
-    <div class="carousel-item active">
-      <a href="#">
-        <img class="first-slide center-block img-fluid" src="./images/slider/Banner_Carrusel-05.jpg" alt="UPPachuca">
-      </a>
-    </div>
+    <?php
+      if ($vedae == 0) {
+        echo '
+        <div class="carousel-item active">
+          <a href="#">
+            <img class="first-slide center-block img-fluid" src="./images/slider/Banner_Carrusel-05.jpg" alt="UPPachuca">
+          </a>
+        </div>
+        ';
+      } else {
+        echo '
+        <div class="carousel-item active">
+          <a href="#">
+            <img class="first-slide center-block img-fluid" src="../lib20/images/slider_veda.png" alt="UPPachuca">
+          </a>
+        </div>
 
-
-
+        ';
+      }
+    ?>
 
 <!--
     <div class="carousel-item active">
