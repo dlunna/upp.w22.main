@@ -181,6 +181,8 @@
 
       <hr />
       <h3><a href="../mecasup/">Prontuario MECASUP</a></h3>
+      <hr />
+      <h3><a href="http://www.hgo.sep.gob.mx/content/estadistica_basica/principal.html">Estadística 911 SEPH</a></h3>
 
 
     </div>
