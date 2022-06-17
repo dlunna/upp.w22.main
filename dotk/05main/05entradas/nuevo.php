@@ -152,9 +152,15 @@
 
       <hr />
       <h3>Revista INMENIO</h3>
+      <!--
       <a href="https://issuu.com/inmenio/docs/inmenio_12_2">
         <p style="font-size:30px">Visitar publicación</p>
         <img src="./images/revistas/Gif-INMENIO.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO" />
+      </a>
+    -->
+      <a href="https://www.upp.edu.mx/inmenioplus/">
+        <p style="font-size:30px">Visitar publicación</p>
+        <img src="./images/revistas/Gif-INMENIO.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO PLUS" />
       </a>
 
       <hr />
