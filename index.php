@@ -70,8 +70,12 @@
         } else {
           include('./dotk/05main/07ligasdint/iconosfooter_veda.html');
         }
+      ?>
 
-?>
+      <a id="quejas"></a>
+      <hr>
+      <?php include('./dotk/05main/08contact/contacto.html'); ?>
+      <br>
 
     </div>
 
