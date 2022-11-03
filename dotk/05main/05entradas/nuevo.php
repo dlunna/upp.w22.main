@@ -170,11 +170,20 @@
         <p style="font-size:30px">Visitar sitio</p>
       </a>
 
+<!--
       <hr />
       <h3>Encuesta desempeño docente</h3>
       <a href="https://sii.upp.edu.mx">
         <p style="font-size:30px">Ir a la encuesta</p>
         <img src="https://www.upp.edu.mx/rfront/wp-content/uploads/2022/07/IMG-20220722-WA0002.jpg" class="featurette-image img-responsive img-thumbnail" alt="Encuesta desempeño docente" />
+      </a>
+-->
+
+      <hr />
+      <h3>Encuesta de evaluación de clima organizacional</h3>
+      <a href="https://sii.upp.edu.mx">
+        <p style="font-size:30px">Ir a la encuesta</p>
+        <img src="https://www.upp.edu.mx/rfront/wp-content/uploads/2022/11/Evaluacion-Clima-Organizacional-879x1024.png" class="featurette-image img-responsive img-thumbnail" alt="Encuesta" />
       </a>
 
 
