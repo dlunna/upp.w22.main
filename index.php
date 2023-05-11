@@ -21,12 +21,13 @@
         include('../lib20/hgo/header.html');
     ?>
     <!-- Slider principal -->
-    <?php include('./dotk/01header/01carousel-principal/carousel.html'); ?>
-    <!--
+    <?php //include('./dotk/01header/01carousel-principal/carousel.html'); ?>
+
     <div class="embed-responsive embed-responsive-21by9">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NzefxRdgwgI" allowfullscreen></iframe>
+      <!--<iframe class="embed-responsive-item" src="https://youtu.be/qS0UchV6pyM" allowfullscreen></iframe>-->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qS0UchV6pyM" title="UPP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-  -->
+
 
   </header>
 
@@ -46,6 +47,11 @@
       <br>
       <br>
     -->
+
+      <a id="contacto"></a>
+      <hr>
+      <?php include('./dotk/05main/oferta-contacto.html'); ?>
+      <br>
 
       <a id="marketing"></a>
       <hr>
