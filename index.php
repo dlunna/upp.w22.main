@@ -70,6 +70,7 @@
       <a id="calendario"></a>
       <hr class="featurette-divider">
       <?php include('./dotk/05main/04gool/gcalendar.html'); ?>
+      <br>
 
       <a id="noticias"></a>
       <hr class="featurette-divider">
