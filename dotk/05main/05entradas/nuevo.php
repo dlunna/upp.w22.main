@@ -166,7 +166,7 @@
       <hr />
       <h3>SIMCI</h3>
       <a href="https://www.upp.edu.mx/simci">
-        <img src="./images/revistas/SIMCI.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista SIMCI" />
+        <img src="./images/revistas/Banner-SIMCI-2023.png" class="featurette-image img-responsive img-thumbnail" alt="Revista SIMCI" />
         <p style="font-size:30px">Visitar sitio</p>
       </a>
 
