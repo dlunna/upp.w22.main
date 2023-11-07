@@ -147,7 +147,7 @@
       <h3>Programas de calidad</h3>
       <a href="http://www.pnpec.sep.gob.mx/">
         <!--<img src="http://www.upp.edu.mx/rfront/wp-content/uploads/2018/10/programas_calida_animado.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO" />-->
-        <p style="font-size:30px">Visitar PNPC</p>
+        <p style="font-size:20px">Visitar PNPC</p>
       </a>
 
       <hr />
@@ -159,45 +159,59 @@
       </a>
     -->
       <a href="https://www.upp.edu.mx/inmenioplus/">
-        <p style="font-size:30px">Visitar publicación</p>
-        <img src="./images/revistas/Gif-INMENIO.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO PLUS" />
+        <p style="font-size:20px">Visitar publicación</p>
+        <!--<img src="./images/revistas/Gif-INMENIO.gif" class="featurette-image img-responsive img-thumbnail" alt="Revista INMENIO PLUS" />-->
       </a>
 
       <hr />
       <h3>SIMCI</h3>
       <a href="https://www.upp.edu.mx/simci">
         <img src="./images/revistas/Banner-SIMCI-2023.png" class="featurette-image img-responsive img-thumbnail" alt="Revista SIMCI" />
-        <p style="font-size:30px">Visitar sitio</p>
+        <!--<p style="font-size:30px">Visitar sitio</p>-->
       </a>
 
       <hr />
       <h3>Encuesta desempeño docente</h3>
       <a href="https://sii.upp.edu.mx">
-        <p style="font-size:30px">Ir a la encuesta</p>
-        <img src="../rfront/wp-content/uploads/2023/07/banner-mayo-agosto-1024x1024.jpeg" class="featurette-image img-responsive img-thumbnail" alt="Encuesta desempeño docente" />
+        <!--<p style="font-size:30px">Ir a la encuesta</p>-->
+        <img src="https://www.upp.edu.mx/rfront/wp-content/uploads/2023/07/banner-mayo-agosto-1024x1024.jpeg" class="featurette-image img-responsive img-thumbnail" alt="Encuesta" />
       </a>
 
-<!--
+
       <hr />
       <h3>Encuesta de evaluación de clima organizacional</h3>
       <a href="https://sii.upp.edu.mx">
-        <p style="font-size:30px">Ir a la encuesta</p>
-        <img src="https://www.upp.edu.mx/rfront/wp-content/uploads/2022/11/Evaluacion-Clima-Organizacional-879x1024.png" class="featurette-image img-responsive img-thumbnail" alt="Encuesta" />
+        <!--<p style="font-size:20px">Ir a la encuesta</p>-->
+        <img src="https://www.upp.edu.mx/rfront/wp-content/uploads/2023/11/Banner-878x1024.jpeg" class="featurette-image img-responsive img-thumbnail" alt="Encuesta" />
       </a>
--->
 
-      <hr />
+
+<!--      <hr />
       <h3>Resultados</h3>
       <a href="http://www.upp.edu.mx/3esp/index.php/institución/evaluación_PID.pdf">
-        <p style="font-size:30px">Resultados PID 2017 - 2022</p>
-        <!--<img src="./images/revistas/boton-pid.gif" class="featurette-image img-responsive img-thumbnail" alt="PID" />-->
+        <p style="font-size:20px">Resultados PID 2017 - 2022</p>
+        <img src="./images/revistas/boton-pid.gif" class="featurette-image img-responsive img-thumbnail" alt="PID" />
       </a>
-
       <hr />
       <h3><a href="../mecasup/">Prontuario MECASUP</a></h3>
       <hr />
       <h3><a href="http://www.hgo.sep.gob.mx/content/estadistica_basica/principal.html">Estadística 911 SEPH</a></h3>
+      -->
 
+
+      <hr />
+      <ul>
+        <li>
+          <a href="http://www.upp.edu.mx/3esp/index.php/institución/evaluación_PID.pdf">
+            Resultados PID 2017 - 2022
+          </a>
+        </li>
+        <li>
+          <a href="../mecasup/">Prontuario MECASUP</a>
+        </li>
+        <li>
+          <a href="http://www.hgo.sep.gob.mx/content/estadistica_basica/principal.html">Estadística 911 SEPH</a>
+        </li>
 
     </div>
   </div> <!--fin de ROW -->
