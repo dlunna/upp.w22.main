@@ -174,7 +174,7 @@
       <h3>Encuesta desempeño docente</h3>
       <a href="https://sii.upp.edu.mx">
         <!--<p style="font-size:30px">Ir a la encuesta</p>-->
-        <img src="https://www.upp.edu.mx/rfront/wp-content/uploads/2023/07/banner-mayo-agosto-1024x1024.jpeg" class="featurette-image img-responsive img-thumbnail" alt="Encuesta" />
+        <img src="https://www.upp.edu.mx/rfront/wp-content/uploads/2023/11/banner-1.jpeg" class="featurette-image img-responsive img-thumbnail" alt="Encuesta" />
       </a>
 
 
