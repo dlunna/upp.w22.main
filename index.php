@@ -18,16 +18,18 @@
     <!-- Logos e imagen de hidalgo -->
     <?php
     //include ('../lib18/seph/hf/header.html');
-        include('../lib20/hgo/header.html');
+    //include('../lib20/hgo/header.html');
     ?>
+    <?php include ('../lib20/hgo/veda_navbar.html'); ?>
     <!-- Slider principal -->
-    <?php //include('./dotk/01header/01carousel-principal/carousel.html'); ?>
-
+    <?php include('./dotk/01header/01carousel-principal/carousel.html'); ?>
+    
+<!--
     <div class="embed-responsive embed-responsive-21by9">
-      <!--<iframe class="embed-responsive-item" src="https://youtu.be/qS0UchV6pyM" allowfullscreen></iframe>-->
+      <iframe class="embed-responsive-item" src="https://youtu.be/qS0UchV6pyM" allowfullscreen></iframe>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/qS0UchV6pyM" title="UPP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-
+      -->
 
   </header>
 
@@ -50,7 +52,7 @@
 
       <a id="contacto"></a>
       <hr>
-      <?php include('./dotk/05main/oferta-contacto.html'); ?>
+      <?php //include('./dotk/05main/oferta-contacto.html'); ?>
       <br>
 
       <a id="marketing"></a>
@@ -106,12 +108,13 @@
   <footer>
     <!-- footer de gobierno del estado -->
     <?php //include ('../lib20/seph/hf/footer.html');?>
-    <?php include('../lib20/hgo/footer.html'); ?>
+    <?php //include('../lib20/hgo/footer.html'); ?>
+    <?php include ('../lib20/hgo/veda_footer.html'); ?>
   </footer>
 
   <?php
     include('../lib20/core/80js.html');
-    include('../lib20/hgo/zoram_js_footer.html');
+    //include('../lib20/hgo/zoram_js_footer.html');
   ?>
 
   <!-- Script para dar la animacion al boton flotante que lleva arriba
